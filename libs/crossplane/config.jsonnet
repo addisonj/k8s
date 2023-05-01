@@ -120,9 +120,9 @@ config.new(
       localName: 'upbound_gcp',
     },
     {
-      output: 'provider-terraform/0.5',
+      output: 'provider-terraform/0.7',
       prefix: '^io\\.upbound\\.tf\\..*',
-      crds: ['https://doc.crds.dev/raw/github.com/upbound/provider-terraform@v0.5.0'],
+      crds: ['https://doc.crds.dev/raw/github.com/upbound/provider-terraform@v0.7.0'],
       localName: 'upbound_terraform',
     },
   ]
